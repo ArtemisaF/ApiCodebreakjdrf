@@ -44,8 +44,8 @@ app.get('/config/:numero',function(req,res){
 });
 app.get('/',function(req,res){
     
-    //res.send("Se ha conectado a la Api")
-    res.send(numeroCorrecto);
+    res.send("Se ha conectado a la Api")
+    
 
 });
 
